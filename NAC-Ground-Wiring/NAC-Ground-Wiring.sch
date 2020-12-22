@@ -5,13 +5,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "New Astro City Ground Wiring"
+Title "Astro/New Astro City Ground Wiring"
 Date "2020-12-21"
-Rev "1.1"
+Rev "1.1b"
 Comp "Softdrink 117"
 Comment1 ""
-Comment2 "Updated based on official Sega wiring diagrams."
-Comment3 "Diagram of earth ground wiring connections in a Sega New Astro City arcade cabinet."
+Comment2 "New Astro City arcade cabinet. Updated based on official Sega wiring diagrams."
+Comment3 "Diagram of earth ground wiring connections in a Sega Astro City or early model "
 Comment4 ""
 $EndDescr
 $Comp
@@ -173,69 +173,64 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5FBDAFC3
-P 4800 5450
-F 0 "#PWR?" H 4800 5200 50  0001 C CNN
-F 1 "GND" H 4805 5277 50  0000 C CNN
-F 2 "" H 4800 5450 50  0001 C CNN
-F 3 "" H 4800 5450 50  0001 C CNN
-	1    4800 5450
+P 3200 6350
+F 0 "#PWR?" H 3200 6100 50  0001 C CNN
+F 1 "GND" H 3205 6177 50  0000 C CNN
+F 2 "" H 3200 6350 50  0001 C CNN
+F 3 "" H 3200 6350 50  0001 C CNN
+	1    3200 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FBDB307
-P 7000 4350
-F 0 "#PWR?" H 7000 4100 50  0001 C CNN
-F 1 "GND" H 7005 4177 50  0000 C CNN
-F 2 "" H 7000 4350 50  0001 C CNN
-F 3 "" H 7000 4350 50  0001 C CNN
-	1    7000 4350
+P 5400 5250
+F 0 "#PWR?" H 5400 5000 50  0001 C CNN
+F 1 "GND" H 5405 5077 50  0000 C CNN
+F 2 "" H 5400 5250 50  0001 C CNN
+F 3 "" H 5400 5250 50  0001 C CNN
+	1    5400 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FBDB90D
-P 7000 4750
-F 0 "#PWR?" H 7000 4500 50  0001 C CNN
-F 1 "GND" H 7005 4577 50  0000 C CNN
-F 2 "" H 7000 4750 50  0001 C CNN
-F 3 "" H 7000 4750 50  0001 C CNN
-	1    7000 4750
+P 5400 5650
+F 0 "#PWR?" H 5400 5400 50  0001 C CNN
+F 1 "GND" H 5405 5477 50  0000 C CNN
+F 2 "" H 5400 5650 50  0001 C CNN
+F 3 "" H 5400 5650 50  0001 C CNN
+	1    5400 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FBDBD8E
-P 7000 5150
-F 0 "#PWR?" H 7000 4900 50  0001 C CNN
-F 1 "GND" H 7005 4977 50  0000 C CNN
-F 2 "" H 7000 5150 50  0001 C CNN
-F 3 "" H 7000 5150 50  0001 C CNN
-	1    7000 5150
+P 5400 6050
+F 0 "#PWR?" H 5400 5800 50  0001 C CNN
+F 1 "GND" H 5405 5877 50  0000 C CNN
+F 2 "" H 5400 6050 50  0001 C CNN
+F 3 "" H 5400 6050 50  0001 C CNN
+	1    5400 6050
 	1    0    0    -1  
 $EndComp
-Text Notes 6800 4650 0    50   ~ 0
+Text Notes 5200 5550 0    50   ~ 0
 Coin Chute
-Text Notes 6400 5050 0    50   ~ 0
+Text Notes 4800 5950 0    50   ~ 0
 Instruction Holder Left Bracket
-Text Notes 6400 5450 0    50   ~ 0
+Text Notes 4800 6350 0    50   ~ 0
 Instruction Holder Right Bracket
-Text Notes 4300 5750 0    50   ~ 0
+Text Notes 2700 6650 0    50   ~ 0
 Control Panel Ground Stud
 Wire Wire Line
-	4800 5450 4800 5150
+	3200 6350 3200 6050
 Wire Wire Line
-	4800 4350 7000 4350
+	5400 5650 3200 5650
 Wire Wire Line
-	7000 4750 4800 4750
-Connection ~ 4800 4750
+	5400 6050 3200 6050
+Connection ~ 3200 6050
 Wire Wire Line
-	4800 4750 4800 4350
-Wire Wire Line
-	7000 5150 4800 5150
-Connection ~ 4800 5150
-Wire Wire Line
-	4800 5150 4800 4750
+	3200 6050 3200 5650
 Wire Wire Line
 	2650 2000 2650 2100
 Connection ~ 2650 2100
@@ -282,16 +277,16 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male CP
 U 1 1 5FE1C0D0
-P 2900 5150
-F 0 "CP" H 2700 5100 50  0000 C CNN
-F 1 "CP GND Male" H 3000 4950 50  0000 C CNN
-F 2 "" H 2900 5150 50  0001 C CNN
-F 3 "~" H 2900 5150 50  0001 C CNN
-	1    2900 5150
+P 1300 6050
+F 0 "CP" H 1100 6000 50  0000 C CNN
+F 1 "CP GND Male" H 1400 5850 50  0000 C CNN
+F 2 "" H 1300 6050 50  0001 C CNN
+F 3 "~" H 1300 6050 50  0001 C CNN
+	1    1300 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 5150 4800 5150
+	1500 6050 3200 6050
 Text Notes 2250 3650 0    50   ~ 0
 NOTE:\nLive / Neutral may be reversed
 Wire Wire Line
@@ -316,4 +311,41 @@ Wire Wire Line
 	2650 2000 3700 2000
 Text Notes 700  7600 0    98   ~ 0
 According to Sega spec, all ground wiring is 18AWG UL1015 \nin Green or Yellow-striped Green
+$Comp
+L power:GND #PWR?
+U 1 1 5FE325FF
+P 5400 4850
+F 0 "#PWR?" H 5400 4600 50  0001 C CNN
+F 1 "GND" H 5405 4677 50  0000 C CNN
+F 2 "" H 5400 4850 50  0001 C CNN
+F 3 "" H 5400 4850 50  0001 C CNN
+	1    5400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE32C52
+P 5400 4450
+F 0 "#PWR?" H 5400 4200 50  0001 C CNN
+F 1 "GND" H 5405 4277 50  0000 C CNN
+F 2 "" H 5400 4450 50  0001 C CNN
+F 3 "" H 5400 4450 50  0001 C CNN
+	1    5400 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 5650
+Wire Wire Line
+	3200 4850 5400 4850
+Wire Wire Line
+	5400 4450 3200 4450
+Wire Wire Line
+	3200 5650 3200 5250
+Wire Wire Line
+	3200 5250 5400 5250
+Wire Notes Line
+	3200 5250 3200 4450
+Text Notes 4700 4750 0    50   ~ 0
+(Optional) Control Panel Hinge Upper
+Text Notes 4700 5150 0    50   ~ 0
+(Optional) Control Panel Hinge Lower
 $EndSCHEMATC
